@@ -1,0 +1,4 @@
+# Permissão jenkins para o docker
+
+sudo usermod -a -G docker jenkins
+chmod 777 /var/run/docker.sock
